@@ -1,5 +1,10 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<omp.h>
+
+void *malloc(size_t size);
+void free(void *ptr);
+
 
 int main(int argc, char** argv){
     int n;
